@@ -36,7 +36,7 @@ namespace BusinessLayer.Concrete
         public List<Comment> GetList(int id)
         {
 
-            return _commentDal.List(x => x.BlogID == id);//gönderilen id'ye göre Blog Id değeri 
+            return _commentDal.List(x => x.BlogID == id);//gönderilen id'ye göre Blog Id değeri  
                                                          //bu parametre id'ye eşit olan blogun yorumlarını getirir.
 
         }
